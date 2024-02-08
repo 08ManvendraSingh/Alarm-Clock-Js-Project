@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	padding-top: 18rem;
+	background:linear-gradient(#f2889a,#600a60);
+}
+.main h2{
+	text-align: center;
+	font-size: 2.8rem;
+	color: white;
+}
+.timeBx{
+	max-width: 30%;
+	height: 5rem;
+	border: 1px solid transparent;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	font-size: 4rem;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+#hrs{
+	min-width: 22%;
+	height: 100%;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bolder;
+	padding: .4rem .5rem;
+}
+#min{
+	min-width: 22%;
+	height: 100%;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bolder;
+	padding: .4rem .5rem;
+}
+#sec{
+	min-width: 22%;
+	height: 100%;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bolder;
+	padding: .4rem .5rem;	
+}
+#ampm{
+	min-width: 22%;
+	height: 100%;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bolder;
+	padding: .4rem .5rem;	
+	margin-left: 3%;
+}
+#one,#two,#three{
+	margin-top: 2rem;
+	min-width: 10%;
+	height: 10%;
+	position: relative;
+	left: 40%;
+	transform:translate(-50%);
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bolder;
+	padding: .4rem .5rem;
+}
+.btn{
+	margin-top: 2rem;
+	font-weight: bolder;
+	text-align: center;
+	min-width: 10%;
+	border: none;
+	border-radius: 10px;
+	height: 10%;
+	position: relative;
+	left: 50%;
+	transform:translate(-50%);
+}
+@media only screen and (max-width:1220px){
+	.timeBx{
+		max-width: 40%;
+	}
+}
+@media only screen and (max-width:992px){
+	.timeBx{
+		max-width: 50%;
+	}
+}
+@media only screen and (max-width:768px){
+	.timeBx{
+		max-width: 60%;
+	}
+}
+@media only screen and (max-width:576px){
+	.timeBx{
+		max-width: 80%;
+	}
+}
